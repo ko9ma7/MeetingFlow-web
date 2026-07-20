@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "test": "vitest run",
     "qa": "node scripts/qa.mjs",
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist --dotfiles",
     "preview": "vite preview"
   },
   "dependencies": {
